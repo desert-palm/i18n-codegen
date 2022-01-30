@@ -23,11 +23,6 @@
     "release": "release-it"
   },
   "peerDependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint --fix"
-    }
-  },
   "release-it": {
     "git": {
       "commitMessage": "chore: release v${version}"
